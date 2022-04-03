@@ -1,0 +1,117 @@
+*{
+    font-family:sans-serif;
+}
+
+main{
+    padding: 3%;
+    color: white;
+    text-align: justify;
+}
+
+body{
+    background-color: #1E1E1E;
+    /*position: relative;*/
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 140px;
+}
+
+h1{
+    position: relative;
+    top: 0;
+}
+
+center > a{
+    text-decoration: none;
+    color:#00FFDD;
+}
+
+article{
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    width: max-content;
+    margin: auto;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/*---------------------------*/
+/*    selectores de clase    */
+/*---------------------------*/
+
+.espacio{
+    height: 7px;
+    background-color: #1E1E1E;
+}
+
+.letra_musica{
+    color:white;
+}
+
+.cabecera{
+    width: 80%;
+    position: fixed;
+    top: 0;
+    background-color: #ff0062;
+    /*box-shadow: 5px 5px 11px black;*/
+}
+
+.pie{
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    background-color: #1E1E1E;
+    text-align: center;
+    margin: auto;
+    color: #ff0062;   
+}
+
+.icono{
+    width: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.imagen{
+    max-width:100%;
+    max-height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menu{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,94,1) 100%);
+}
+
+.rems{
+    font-size: 40px;
+}
+
+.active {
+    background-color: #1E1E1E;
+}
+
